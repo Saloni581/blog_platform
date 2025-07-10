@@ -1,5 +1,5 @@
 import { connectToDB } from "@/lib/db";
-import Post from "@/models/Posts";
+import Post from "@/models/Post";
 import { NextResponse } from "next/server";
 
 export async function GET() {
