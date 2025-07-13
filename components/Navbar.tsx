@@ -8,6 +8,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="flex items-center justify-evenly p-4 text-gray-700 bg-white">
+                <Link href="/dashboard">Dashboard</Link>
                 <Link href="/">Read Blogs</Link>
                 <Link href="/blog/new">Post a Blog</Link>
                 <li>

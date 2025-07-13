@@ -2,6 +2,7 @@ import { connectToDB } from "@/lib/db";
 import Post from "@/models/Post";
 import { NextRequest, NextResponse } from "next/server";
 
+// GET
 export async function GET() {
     try {
         await connectToDB();
@@ -12,6 +13,7 @@ export async function GET() {
     }
 }
 
+// POST
 export async function POST(req: NextRequest) {
     try {
         await connectToDB();
